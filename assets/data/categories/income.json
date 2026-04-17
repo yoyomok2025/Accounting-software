@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "income_salary",
+      "name": "Salary"
+    },
+    {
+      "id": "income_bonus",
+      "name": "Bonus"
+    },
+    {
+      "id": "income_allowance",
+      "name": "Allowance"
+    },
+    {
+      "id": "income_interest",
+      "name": "Interest"
+    },
+    {
+      "id": "income_dividend",
+      "name": "Dividend"
+    },
+    {
+      "id": "income_rent",
+      "name": "Rent"
+    },
+    {
+      "id": "income_royalty",
+      "name": "Royalty"
+    },
+    {
+      "id": "income_commission",
+      "name": "Commission"
+    },
+    {
+      "id": "income_pension",
+      "name": "Pension"
+    },
+    {
+      "id": "income_inheritance",
+      "name": "Inheritance"
+    },
+    {
+      "id": "income_lottery",
+      "name": "Lottery"
+    },
+    {
+      "id": "income_insurance",
+      "name": "Insurance"
+    },
+    {
+      "id": "income_welfare",
+      "name": "Welfare"
+    },
+    {
+      "id": "income_gift",
+      "name": "Gift"
+    },
+    {
+      "id": "income_refund",
+      "name": "Refund"
+    },
+    {
+      "id": "income_reimbursement",
+      "name": "Reimbursement"
+    },
+    {
+      "id": "income_loan",
+      "name": "Loan"
+    },
+    {
+      "id": "income_debt",
+      "name": "Debt Collection"
+    },
+    {
+      "id": "income_investment-profit",
+      "name": "Investment Profit"
+    },
+    {
+      "id": "income_other",
+      "name": "Other"
+    }
+  ]
+}

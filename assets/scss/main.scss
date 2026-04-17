@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@use './_mixin.scss' as *;
+@use './_variables.scss' as *;
+@use './_font.scss' as *;
+@use './_reset.scss' as *;
+@use './_animate.scss' as *;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Import Google Fonts - Plus Jakarta Sans
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.before-font-material::before,
+.after-font-material::after {
+  @include font-material;
+}
+
+.before-font-awesome::before,
+.after-font-awesome::after {
+  @include font-awesome;
+}
+
+// * ==========================================================================
+// * MAIN
+// * ==========================================================================
+
+html, body, #__nuxt, #app {
+  @apply w-full h-full relative overflow-hidden;
+}
+
+body {
+  font-family: $font-family;
+  @apply text-slate-100 text-base bg-slate-950 antialiased;
+}

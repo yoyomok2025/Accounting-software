@@ -1,0 +1,378 @@
+{
+  "data": [
+    {
+      "id": "expense_food",
+      "name": "Food",
+      "subcategories": [
+        {
+          "id": "breakfast",
+          "name": "Breakfast"
+        },
+        {
+          "id": "lunch",
+          "name": "Lunch"
+        },
+        {
+          "id": "dinner",
+          "name": "Dinner"
+        },
+        {
+          "id": "night snack",
+          "name": "Night Snack"
+        },
+        {
+          "id": "dessert",
+          "name": "Dessert"
+        },
+        {
+          "id": "drink",
+          "name": "Drinks"
+        }
+      ]
+    },
+    {
+      "id": "expense_traffic",
+      "name": "Traffic",
+      "subcategories": [
+        {
+          "id": "car",
+          "name": "Car"
+        },
+        {
+          "id": "motorcycle",
+          "name": "Motorcycle"
+        },
+        {
+          "id": "bicycle",
+          "name": "Bicycle"
+        },
+        {
+          "id": "bus",
+          "name": "Bus"
+        },
+        {
+          "id": "taxi",
+          "name": "Taxi"
+        },
+        {
+          "id": "train",
+          "name": "Train"
+        },
+        {
+          "id": "subway",
+          "name": "Subway"
+        },
+        {
+          "id": "Light Rail",
+          "name": "Light Rail"
+        },
+        {
+          "id": "airplane",
+          "name": "Airplane"
+        },
+        {
+          "id": "ship",
+          "name": "Ship"
+        },
+        {
+          "id": "yacht",
+          "name": "Yacht"
+        }
+      ]
+    },
+    {
+      "id": "expense_recreation",
+      "name": "Recreation",
+      "subcategories": [
+        {
+          "id": "movie",
+          "name": "Movie"
+        },
+        {
+          "id": "exhibition",
+          "name": "Exhibition"
+        },
+        {
+          "id": "music",
+          "name": "Music"
+        },
+        {
+          "id": "game",
+          "name": "Games"
+        },
+        {
+          "id": "sports",
+          "name": "Sports"
+        },
+        {
+          "id": "sightseeing",
+          "name": "Sightseeing"
+        },
+        {
+          "id": "amusement park",
+          "name": "Amusement Park"
+        },
+        {
+          "id": "hiking",
+          "name": "Hiking"
+        }
+      ]
+    },
+    {
+      "id": "expense_shopping",
+      "name": "Shopping",
+      "subcategories": [
+        {
+          "id": "clothing",
+          "name": "Clothing"
+        },
+        {
+          "id": "shoes",
+          "name": "Shoes"
+        },
+        {
+          "id": "fitting",
+          "name": "Accessories"
+        },
+        {
+          "id": "gift",
+          "name": "Gift"
+        },
+        {
+          "id": "3c-products",
+          "name": "Electronics"
+        },
+        {
+          "id": "snack",
+          "name": "Snacks"
+        },
+        {
+          "id": "daily",
+          "name": "Daily Items"
+        },
+        {
+          "id": "cosmetics",
+          "name": "Cosmetics"
+        },
+        {
+          "id": "book",
+          "name": "Books"
+        },
+        {
+          "id": "furniture",
+          "name": "Furniture"
+        },
+        {
+          "id": "home appliances",
+          "name": "Home Appliances"
+        },
+        {
+          "id": "plant",
+          "name": "Plants"
+        }
+      ]
+    },
+    {
+      "id": "expense_investment",
+      "name": "Investment",
+      "subcategories": [
+        {
+          "id": "stock",
+          "name": "Stocks"
+        },
+        {
+          "id": "time-deposit.",
+          "name": "Time Deposit"
+        },
+        {
+          "id": "fund",
+          "name": "Funds"
+        },
+        {
+          "id": "insurance",
+          "name": "Insurance"
+        },
+        {
+          "id": "cryptocurrency",
+          "name": "Cryptocurrency"
+        },
+        {
+          "id": "real estate",
+          "name": "Real Estate"
+        },
+        {
+          "id": "gold",
+          "name": "Gold"
+        },
+        {
+          "id": "foreign exchange",
+          "name": "Foreign Exchange"
+        },
+        {
+          "id": "jewelry",
+          "name": "Jewelry"
+        }
+      ]
+    },
+    {
+      "id": "expense_medical",
+      "name": "Medical",
+      "subcategories": [
+        {
+          "id": "hospital",
+          "name": "Outpatient"
+        },
+        {
+          "id": "tooth-care",
+          "name": "Dental Care"
+        },
+        {
+          "id": "medicine",
+          "name": "Medicine"
+        },
+        {
+          "id": "surgery",
+          "name": "Surgery"
+        },
+        {
+          "id": "vaccine",
+          "name": "Vaccine"
+        },
+        {
+          "id": "health check",
+          "name": "Health Check"
+        },
+        {
+          "id": "nursing",
+          "name": "Nursing"
+        },
+        {
+          "id": "psychological counseling",
+          "name": "Counseling"
+        },
+        {
+          "id": "rehabilitation",
+          "name": "Rehabilitation"
+        },
+        {
+          "id": "plastic surgery",
+          "name": "Plastic Surgery"
+        },
+        {
+          "id": "beauty",
+          "name": "Beauty Treatment"
+        }
+      ]
+    },
+    {
+      "id": "expense_home",
+      "name": "Home",
+      "subcategories": [
+        {
+          "id": "water-fee",
+          "name": "Water"
+        },
+        {
+          "id": "electricity-bill",
+          "name": "Electricity"
+        },
+        {
+          "id": "gas-fee",
+          "name": "Gas"
+        },
+        {
+          "id": "internet-fee",
+          "name": "Internet"
+        },
+        {
+          "id": "telephone-fee",
+          "name": "Phone"
+        },
+        {
+          "id": "rent",
+          "name": "Rent"
+        },
+        {
+          "id": "mortgage",
+          "name": "Mortgage"
+        },
+        {
+          "id": "repair",
+          "name": "Repairs"
+        },
+        {
+          "id": "cleaning",
+          "name": "Cleaning"
+        },
+        {
+          "id": "decoration",
+          "name": "Renovation"
+        }
+      ]
+    },
+    {
+      "id": "expense_life",
+      "name": "Life",
+      "subcategories": [
+        {
+          "id": "hair",
+          "name": "Hair Salon"
+        },
+        {
+          "id": "massage",
+          "name": "Massage"
+        },
+        {
+          "id": "party",
+          "name": "Parties"
+        },
+        {
+          "id": "travel",
+          "name": "Travel"
+        },
+        {
+          "id": "pet",
+          "name": "Pets"
+        },
+        {
+          "id": "funeral",
+          "name": "Funeral"
+        },
+        {
+          "id": "wedding",
+          "name": "Wedding"
+        }
+      ]
+    },
+    {
+      "id": "expense_learning",
+      "name": "Learning",
+      "subcategories": [
+        {
+          "id": "tuition",
+          "name": "Tuition"
+        },
+        {
+          "id": "stationery",
+          "name": "Stationery"
+        },
+        {
+          "id": "explore",
+          "name": "Exploration"
+        },
+        {
+          "id": "seminar",
+          "name": "Seminars"
+        },
+        {
+          "id": "book",
+          "name": "Books"
+        },
+        {
+          "id": "online course",
+          "name": "Online Courses"
+        }
+      ]
+    }
+  ]
+}
