@@ -22,6 +22,37 @@ A modern personal finance tracking application built with Nuxt 3, designed to he
 - [Contributing](#contributing)
 - [License](#license)
 
+
+## Project Purpose & Development Process
+
+### Purpose
+
+**INE Tracker** is a privacy-first personal finance application that keeps all financial data locally in the user's browser.
+
+- **Target Users**: Privacy-conscious individuals, freelancers, and students who want full control over their financial data.
+- **Possible Usage**: Daily expense tracking, monthly budget review, and category‑based spending analysis.
+
+### Development Process
+
+- **Selected Model**: Agile (Iterative Development)
+- **Reason**: Personal finance requirements often evolve through actual usage. Agile allowed the project to start with a minimal viable product (calendar + basic transaction entry) and incrementally add analytics dashboards, PWA support, and advanced charts based on testing feedback. Waterfall would have required a complete upfront specification, which is unrealistic for a solo‑developed exploratory tool.
+
+### Development Schedule
+
+| Phase                  | Duration   | Key Deliverables                                                       |
+| :--------------------- | :--------- | :--------------------------------------------------------------------- |
+| Phase 1 – Foundation   | Week 1   | Project scaffolding, Nuxt configuration, IndexedDB schema design        |
+| Phase 2 – Core Features| Week 2－3  | Calendar view, add/edit/delete transactions                            |
+| Phase 3 – Analytics    | Week 4－5   | ApexCharts integration, Overview and Analysis pages                     |
+| Phase 4 – Polish & PWA | Week 6  | PWA support, animations, bug fixes, documentation                       |
+
+### Core Algorithm
+
+- **Data Persistence**: Promise‑based IndexedDB wrapper (`idb-keyval`) performs asynchronous CRUD operations for transaction records.
+- **Time‑Range Aggregation**: `Day.js` computes monthly/yearly timestamps; the record store filters records within the range to compute totals and render charts.
+- **Category Validation**: `useCategoryValidator` ensures that selected subcategories belong to the correct parent category (e.g., “Breakfast” under “Food”).
+
+
 ## Screenshots
 
 ### Calendar View
@@ -49,6 +80,8 @@ Category-based expense analysis with interactive charts
 Modal form for adding new transactions
 
 ## Features
+
+
 
 ### Core Functionality
 
@@ -357,6 +390,16 @@ INE tracker comes with predefined categories for comprehensive financial trackin
 ### Income Categories
 
 Configure your income sources for tracking salary, bonuses, investments, and more.
+
+## Current Status
+
+**Version 2.0.3** is stable and fully functional. All core features are implemented and tested:
+- Calendar‑based transaction tracking
+- Multi‑dimensional analytics (by category, store, tags)
+- PWA installation and full offline support
+- Local IndexedDB storage (no server required)
+
+The project is currently in **maintenance and feature expansion** phase.
 
 ## Roadmap
 
