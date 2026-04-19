@@ -35,6 +35,13 @@ A modern personal finance tracking application built with Nuxt 3, designed to he
 - **Target Users**: Privacy-conscious individuals, freelancers, and students who want full control over their financial data.
 - **Possible Usage**: Daily expense tracking, monthly budget review, and category‑based spending analysis.
 
+### Team Members & Responsibilities
+
+| Student ID   | Name            | Responsibilities                                              |
+| :----------- | :-------------- | :------------------------------------------------------------ |
+| P2107187     | MOK WENG TONG   | Software development, architecture design, documentation writing |
+| P2405255     | KAO SI SI       | Documentation writing, video  |
+| P2405007     | WONG POU KUAN   | Video    |
 ### Development Process
 
 - **Selected Model**: Agile (Iterative Development)
