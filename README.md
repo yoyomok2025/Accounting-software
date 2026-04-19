@@ -467,6 +467,19 @@ When reporting bugs, please include:
 - Screenshots if applicable
 - Browser/Node version information
 
+## Demo Video
+
+🎥 **Watch the demonstration on YouTube**:  
+[COMP2116 – INE Tracker – Final Project Demo](https://www.youtube.com/watch?v=bsQfslO3rfM)
+
+**Video Contents:**
+- Starting the application 
+- Calendar view and transaction management
+- Overview dashboard and analytics
+- PWA offline functionality
+
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
