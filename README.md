@@ -6,6 +6,7 @@
 ![Vue](https://img.shields.io/badge/Vue-3.0-4FC08D.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6.svg)
 
+# General Structure
 ![General Structure](docs/screenshots/general-structure.png)
 
 A modern personal finance tracking application built with Nuxt 3, designed to help you manage income and expenses with an intuitive interface and powerful analytics. Your data stays private with local browser storage.
