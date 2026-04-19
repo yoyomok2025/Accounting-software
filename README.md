@@ -53,8 +53,8 @@ A modern personal finance tracking application built with Nuxt 3, designed to he
 | :--------------------- | :--------- | :--------------------------------------------------------------------- |
 | Phase 1 – Foundation   | Week 1   | Project scaffolding, Nuxt configuration, IndexedDB schema design        |
 | Phase 2 – Core Features| Week 2－3  | Calendar view, add/edit/delete transactions                            |
-| Phase 3 – Analytics    | Week 4－5   | ApexCharts integration, Overview and Analysis pages                     |
-| Phase 4 – Polish & PWA | Week 6  | PWA support, animations, bug fixes, documentation                       |
+| Phase 3 – Analytics    | Week 4－5   | ApexCharts integration, Overview and Analysis pages ,documentation            |
+| Phase 4 – Polish & PWA | Week 6  | PWA support, animations, bug fixes, documentation and video production           |
 
 ### Core Algorithm
 
